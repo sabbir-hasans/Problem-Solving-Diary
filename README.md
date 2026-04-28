@@ -33,7 +33,7 @@ For every problem I solve, I try to include:
 ```
 Problem-Solving-Diary/
 │
-├── C/
+├── C(CS-Fundamentals)/
 ├── Cpp/
 ├── Python/
 ├── JavaScript/
