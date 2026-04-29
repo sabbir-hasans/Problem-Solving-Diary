@@ -23,7 +23,7 @@
 |------|------|
 | Variables | [notes](Variables.md) |
 | Operators | [notes](Operators.md) |
-| Conditions | [notes](Conditions.md) |
+| Conditions | [notes](CS-Fundamentals/notes/Conditions.md) |
 | Loops | [notes](loops.md) |
 | Arrays | [notes](arrays.md) |
 | Strings | [notes](strings.md) |
