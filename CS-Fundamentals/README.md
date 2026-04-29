@@ -21,9 +21,9 @@
 
 | Topic | Link |
 |------|------|
-| Variables | [notes](variables.md) |
-| Operators | [notes](operators.md) |
-| Conditions | [notes](conditions.md) |
+| Variables | [notes](Variables.md) |
+| Operators | [notes](Operators.md) |
+| Conditions | [notes](Conditions.md) |
 | Loops | [notes](loops.md) |
 | Arrays | [notes](arrays.md) |
 | Strings | [notes](strings.md) |
