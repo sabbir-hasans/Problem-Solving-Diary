@@ -21,12 +21,12 @@
 
 | Topic | Link |
 |------|------|
-| Variables | [Open](variables.md) |
-| Operators | [Open](operators.md) |
-| Conditions | [Open](conditions.md) |
-| Loops | [Open](loops.md) |
-| Arrays | [Open](arrays.md) |
-| Strings | [Open](strings.md) |
+| Variables | [notes](variables.md) |
+| Operators | [notes](operators.md) |
+| Conditions | [notes](conditions.md) |
+| Loops | [notes](loops.md) |
+| Arrays | [notes](arrays.md) |
+| Strings | [notes](strings.md) |
 
 ---
 
