@@ -9,17 +9,25 @@ int main()
         scanf("%d", &a[i]);
     }
 
-    int i = 0;
-    int j = n-1;
-    while (i < j)
+    for (int i = 0, j = n-1; i < j; i++, j--)
     {
         int tmp = a[i];
         a[i] = a[j];
         a[j] = tmp;
-
-        i++;
-        j--;
     }
+    
+    // int i = 0;
+    // int j = n-1;
+    // while (i < j)
+    // {
+    //     int tmp = a[i];
+    //     a[i] = a[j];
+    //     a[j] = tmp;
+
+    //     i++;
+    //     j--;
+    // }
+    
     for (int i = 0; i < n; i++)
     {
         printf("%d ", a[i]);
