@@ -2,21 +2,30 @@
 int main()
 {
     int n;
-    scanf("%d", &n);
-
-    int space = n-1;
-    for (int i = 1; i <= n; i++)
+    scanf("%d",&n);
+    int A[n];
+    for (int i = 0; i < n; i++) //array input
     {
-        for (int j = 1; j <= space; j++)
+        scanf("%d", &A[i]);
+    }
+    int x;
+    scanf("%d",&x);
+
+    int flag = 0;
+    for (int i = 0; i < n-1; i++)
+    {
+        for (int j = i+1; j < n; j++)
         {
-            printf(" ");
-        }
-        for (int k = 1; k <= i; k++)
-        {
-            printf("%d ", k);
-        }
-        space--;
-        printf("\n");
+            if (A[i] + A[j] == x)
+            {
+                flag = 1;
+                printf("Yes\n");
+            }
+        } 
+    }
+    if (flag == 0)
+    {
+        printf("No\n");
     }
     
     return 0;
