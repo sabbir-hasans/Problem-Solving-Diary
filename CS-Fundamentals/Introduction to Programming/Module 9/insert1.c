@@ -12,11 +12,13 @@ int main()
     int idx, val;
     scanf("%d %d", &idx, &val);
 
-    for (int i = n; i >= idx + 1; i--)
+    for (int i = n; i >= idx + 1; i--) // array element move to right
     {
         a[i] = a[i -1];
     }
-    a[idx] = val;
+
+    a[idx] = val; // new array value insert
+
     for (int i = 0; i <= n; i++)
     {
         printf("%d ", a[i]);
