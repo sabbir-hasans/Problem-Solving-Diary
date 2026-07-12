@@ -1,0 +1,6 @@
+rifat 1 92
+sifat 2 92
+ifat 10 92
+sakib 15 92
+rakib 18 92
+akib 28 92
